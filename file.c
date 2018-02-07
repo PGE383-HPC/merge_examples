@@ -2,5 +2,5 @@
 #include <errno.h>
 void quit(char *message) {
 	printf("Error number %d\n", errno);
-        exit;
+        exit(1);
 }
