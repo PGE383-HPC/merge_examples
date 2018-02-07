@@ -1,5 +1,6 @@
-#include stdio.h
+#include <stdio.h>
 #include <errno.h>
 int quit(char *message) {
-	printf('Error number %10d', errno)
+	printf("Error number %d\n", errno);
         exit;
+}
